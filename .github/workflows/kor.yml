@@ -11,3 +11,5 @@ jobs:
         with:
           python-version: "3.12"
       - run: python hello.py
+      - run: pip install pytest
+      - run: pytest -v
